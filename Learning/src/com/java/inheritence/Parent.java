@@ -4,12 +4,6 @@ public class Parent extends GrandFather {
 
 	public static void main(String[] args) {
 
-//		Child c = new Child();
-//
-//		c.car();
-//		c.car("Red");
-//		c.house();
-		
 		
 		
 		GrandFather p = new Parent();
@@ -17,8 +11,6 @@ public class Parent extends GrandFather {
 		p.house();
 //		p.childCar();
 		//parent car
-
-		
 		
 		Parent c = (Parent)p;
 		c.childCar();
@@ -28,7 +20,7 @@ public class Parent extends GrandFather {
 
 	public void car() {
 
-		System.out.println("The car method from child class");
+		System.out.println("The car method from Parent class");
 	}
 	
 	public void childCar() {

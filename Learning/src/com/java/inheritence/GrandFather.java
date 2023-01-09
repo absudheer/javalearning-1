@@ -1,9 +1,10 @@
 package com.java.inheritence;
+
 public class GrandFather {
 
 	public void car() {
 
-		System.out.println("The car method from parent class");
+		System.out.println("The car method from GrandFather class");
 	}
 
 	public void car(String color) {

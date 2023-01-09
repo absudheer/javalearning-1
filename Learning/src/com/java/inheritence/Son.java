@@ -7,6 +7,8 @@ public class Son extends Parent {
 
 		GrandFather gf = new Son();
 		
+		gf.car();
+		System.out.println("The hashcode method returns :"+gf.hashCode());
 //		gf.sonMethod();
 	}
 
